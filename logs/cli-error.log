@@ -1,0 +1,226 @@
+2023-05-05 04:27:33 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /home/runner/app/config/bootstrap.php on line 172 in /home/runner/app/vendor/cakephp/cakephp/src/Utility/Security.php on line 305
+Stack Trace:
+- /home/runner/app/config/bootstrap.php:172
+- /home/runner/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /home/runner/app/src/Application.php:47
+- /home/runner/app/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/app/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/app/bin/cake.php:12
+
+2023-05-05 04:35:38 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /home/runner/app/config/bootstrap.php on line 172 in /home/runner/app/vendor/cakephp/cakephp/src/Utility/Security.php on line 305
+Stack Trace:
+- /home/runner/app/config/bootstrap.php:172
+- /home/runner/app/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /home/runner/app/src/Application.php:47
+- /home/runner/app/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/app/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/app/bin/cake.php:12
+
+2023-05-05 23:25:12 error: [PDOException] SQLSTATE[HY000]: General error: 1 no such table: articles in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php on line 200
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php:200
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:303
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:302
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:325
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:324
+- /home/runner/CakePHP/src/Command/SqlCommand.php:40
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:26:13 error: [PDOException] SQLSTATE[HY000]: General error: 1 no such table: articles in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php on line 200
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php:200
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:303
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:302
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:375
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:374
+- /home/runner/CakePHP/src/Command/SqlCommand.php:40
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:26:24 error: [PDOException] SQLSTATE[HY000]: General error: 1 incomplete input in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php on line 200
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php:200
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:303
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:302
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:375
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:374
+- /home/runner/CakePHP/src/Command/SqlCommand.php:40
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:27:54 error: [ArgumentCountError] Too few arguments to function Cake\Console\ConsoleIo::ask(), 0 passed in /home/runner/CakePHP/src/Command/SqlCommand.php on line 42 and at least 1 expected in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/ConsoleIo.php on line 416
+Stack Trace:
+- /home/runner/CakePHP/src/Command/SqlCommand.php:42
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:28:04 error: [PDOException] SQLSTATE[HY000]: General error: 1 near "show": syntax error in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php on line 200
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php:200
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:303
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:302
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:375
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:374
+- /home/runner/CakePHP/src/Command/SqlCommand.php:41
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:28:23 error: [PDOException] SQLSTATE[HY000]: General error: 1 near ".": syntax error in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php on line 200
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php:200
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:303
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:302
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:375
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:374
+- /home/runner/CakePHP/src/Command/SqlCommand.php:41
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:28:49 error: [Error] Object of class Cake\Database\Statement\SqliteStatement could not be converted to string in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php on line 203
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/ConsoleIo.php:201
+- /home/runner/CakePHP/src/Command/SqlCommand.php:41
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:30:42 error: [Error] Call to undefined function App\Command\get_class_method() in /home/runner/CakePHP/src/Command/SqlCommand.php on line 41
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:32:54 error: [PDOException] SQLSTATE[HY000]: General error: 1 near ".": syntax error in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php on line 200
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Driver/Sqlite.php:200
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:303
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:302
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:375
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Database/Connection.php:374
+- /home/runner/CakePHP/src/Command/SqlCommand.php:41
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-05 23:36:27 error: [Error] Class "App\Command\SQLite3" not found in /home/runner/CakePHP/src/Command/SqlCommand.php on line 40
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-23 15:54:57 error: [Cake\Core\Exception\MissingPluginException] Plugin Cake/Repl could not be found. in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 143
+Exception Attributes: array (
+  'plugin' => 'Cake/Repl',
+)
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php:257
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:129
+- /home/runner/CakePHP/src/Application.php:66
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-23 15:56:52 error: [Cake\Core\Exception\MissingPluginException] Plugin Cake/Repl could not be found. in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 143
+Exception Attributes: array (
+  'plugin' => 'Cake/Repl',
+)
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php:257
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:129
+- /home/runner/CakePHP/src/Application.php:66
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-23 16:03:04 error: [Cake\Core\Exception\MissingPluginException] Plugin Cake/Repl could not be found. in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 143
+Exception Attributes: array (
+  'plugin' => 'Cake/Repl',
+)
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php:257
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:129
+- /home/runner/CakePHP/src/Application.php:66
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-23 16:09:14 error: [Cake\Core\Exception\MissingPluginException] Plugin Cake/Repl could not be found. in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 143
+Exception Attributes: array (
+  'plugin' => 'Cake/Repl',
+)
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php:257
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:129
+- /home/runner/CakePHP/src/Application.php:66
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-26 12:05:17 error: [Error] Call to undefined method App\Application::bootstrapCli() in /home/runner/CakePHP/src/Application.php on line 50
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-26 12:10:00 error: [Cake\Core\Exception\MissingPluginException] Plugin Authorization could not be found. in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 143
+Exception Attributes: array (
+  'plugin' => 'Authorization',
+)
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php:257
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:129
+- /home/runner/CakePHP/src/Application.php:61
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-26 12:13:35 error: [Cake\Core\Exception\MissingPluginException] Plugin Authorization could not be found. in /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 143
+Exception Attributes: array (
+  'plugin' => 'Authorization',
+)
+Stack Trace:
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Core/PluginCollection.php:257
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:129
+- /home/runner/CakePHP/src/Application.php:61
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:195
+- /home/runner/CakePHP/vendor/cakephp/cakephp/src/Console/CommandRunner.php:133
+- /home/runner/CakePHP/bin/cake.php:12
+
+2023-05-30 19:13:19 error: [TypeError] Cake\Http\BaseApplication::{closure}(): Argument #1 ($builder) must be of type RouteBuiler, Cake\Routing\RouteBuilder given, called in /home/runner/RestfulAPI/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php on line 946 in /home/runner/RestfulAPI/config/routes.php on line 56
+Stack Trace:
+- /home/runner/RestfulAPI/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:946
+- /home/runner/RestfulAPI/config/routes.php:56
+- /home/runner/RestfulAPI/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /home/runner/RestfulAPI/vendor/cakephp/cakephp/src/Console/CommandRunner.php:397
+- /home/runner/RestfulAPI/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /home/runner/RestfulAPI/bin/cake.php:12
+
